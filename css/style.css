@@ -38,8 +38,9 @@ body{
 }
 
 .nav{
-    background-color: aqua;
-    opacity: 50%;
+    background-color: white;
+
+    opacity: 64%;
 }
 
 .nav-content{
