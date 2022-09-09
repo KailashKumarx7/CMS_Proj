@@ -1,0 +1,139 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('/assets/images/dashbord-back.jpeg');
+    background-size: cover;
+    width: 100%;
+
+}
+
+.logot{
+    text-decoration: none;
+    color: black;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+
+.nav-text-logo{
+    position: absolute;
+    left: 50px;
+    top: 12px;
+}
+
+.nav-text-logo a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    gap: 0.4px;
+    letter-spacing: -5px;
+}
+
+.nav-logo{
+    padding-top: 10px;
+}
+
+.nav{
+    background-color: aqua;
+    opacity: 50%;
+}
+
+.nav-content{
+    position: absolute;
+    top: 8px;
+    right: 100px;
+
+
+}
+ul.ul-list{
+    display: flex;
+    width: 50px;
+    list-style: none;
+    padding-left: 0;
+    width: 100%;
+   
+    color: black;
+}
+
+.ul-list li{
+    padding-left: 11px;
+    margin: 0 20px 0 20px;
+}
+.ul-list li a{
+    text-decoration: none;
+    padding: 0 10px 0 20px;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+
+
+}
+
+#access ul {
+    font-size: 13px;
+    list-style: none;
+    margin: 0 0 0 -0.8125em;
+    padding-left: 0;
+}
+#access li {
+    position: relative;
+    padding-left: 11px;
+}
+#access a {
+    border-bottom: 2px solid #fff;
+    color: #eee;
+    display: block;
+    line-height: 3.333em;
+    padding: 0 10px 0 20px;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
