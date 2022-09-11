@@ -9,6 +9,7 @@
 
 body{
     background-image: url('/assets/images/dashbord-back.jpeg');
+
     background-size: cover;
     width: 100%;
 
@@ -115,8 +116,8 @@ ul.ul-list{
 .ellips1{
     position: absolute;
 
-    height: 80vh;
-    width: 80vh;
+    height: 80%;
+    width: 40%;
     background-color: black;
     border-radius: 14% 86% 89% 11% / 5% 56% 44% 95%  ;
     left: -90px;
@@ -125,8 +126,8 @@ ul.ul-list{
 .ellips2{
     position: absolute;
 
-    height: 80vh;
-    width: 110vh;
+    height: 80%;
+    width: 50%;
     background-color: black;
     border-radius: 14% 86% 89% 11% / 5% 56% 44% 95%  ;
     left: -90px;
@@ -136,8 +137,8 @@ ul.ul-list{
 .ellips3{
     position: absolute;
 
-    height: 80vh;
-    width: 120vh;
+    height: 80%;
+    width: 55%;
     background-color: black;
     border-radius: 14% 86% 89% 11% / 5% 56% 44% 95%  ;
     left: -100px;
@@ -150,10 +151,10 @@ ul.ul-list{
 .content{
     
 position: absolute;
-width: 425px;
-height: 332px;
-left: 0px;
-top: 200px;
+width: 40%;
+height: 35%;
+
+top: 30%;
 
 
 }
