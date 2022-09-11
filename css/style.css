@@ -49,7 +49,7 @@ body{
 .nav-content{
     position: absolute;
     top: 8px;
-    right: 100px;
+    right: 150px;
 
 
 }
@@ -64,12 +64,12 @@ ul.ul-list{
 }
 
 .ul-list li{
-    padding-left: 11px;
-    margin: 0 20px 0 20px;
+    padding-left: 5px;
+    margin: 0 10px 0 10px;
 }
 .ul-list li a{
     text-decoration: none;
-    padding: 0 10px 0 20px;
+    padding: 0 10px 0 10px;
     color: black;
     font-size: 20px;
     font-weight: bold;
@@ -109,24 +109,102 @@ ul.ul-list{
     /* font-family: sans-serif; */
 }
 
-#access ul {
-    font-size: 13px;
-    list-style: none;
-    margin: 0 0 0 -0.8125em;
-    padding-left: 0;
+
+
+
+.ellips1{
+    position: absolute;
+
+    height: 80vh;
+    width: 80vh;
+    background-color: black;
+    border-radius: 14% 86% 89% 11% / 5% 56% 44% 95%  ;
+    left: -90px;
+
 }
-#access li {
-    position: relative;
-    padding-left: 11px;
+.ellips2{
+    position: absolute;
+
+    height: 80vh;
+    width: 110vh;
+    background-color: black;
+    border-radius: 14% 86% 89% 11% / 5% 56% 44% 95%  ;
+    left: -90px;
+    top: 200px;
+
 }
-#access a {
-    border-bottom: 2px solid #fff;
-    color: #eee;
-    display: block;
-    line-height: 3.333em;
-    padding: 0 10px 0 20px;
-    text-decoration: none;
+.ellips3{
+    position: absolute;
+
+    height: 80vh;
+    width: 120vh;
+    background-color: black;
+    border-radius: 14% 86% 89% 11% / 5% 56% 44% 95%  ;
+    left: -100px;
+    top: 300px;
+
 }
+
+
+
+.content{
+    
+position: absolute;
+width: 425px;
+height: 332px;
+left: 0px;
+top: 200px;
+
+
+}
+
+.content p.p1{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 60px;
+line-height: 44px;
+text-align: center;
+line-height: 1.1;
+
+
+color: #FAFF00;
+}
+
+.content p.p2{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 60px;
+line-height: 44px;
+text-align: center;
+line-height: 1.1;
+
+color: #FAFF00;
+}
+.content p.p3{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 60px;
+line-height: 44px;
+text-align: center;
+line-height: 1.1;
+
+
+color: #FAFF00;
+}
+
+
+.log-box{
+    
+}
+
+
+
+
+
+
 
 
 
