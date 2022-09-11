@@ -205,6 +205,27 @@ color: #FAFF00;
     
     background: #000000;
     border-radius: 20px; 
+
+}
+
+.log-box .log-heading{
+    position: absolute;
+    left: 20vh;
+    top: 1vh;
+    text-decoration: none;
+/* width: 76px;
+height: 17px; */
+/* left: 807px; */
+/* top: 182px; */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+letter-spacing: -0.05em;
+
+color: #FFFFFF;
 }
 
 
