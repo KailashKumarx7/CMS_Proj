@@ -230,8 +230,7 @@ color: #FFFFFF;
 }
 
 .log-id{
-    position: absolute;
-    width: 100%;
+    position: absolute;  
     left: 10vh;
     top: 10vh;
 }
