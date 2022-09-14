@@ -229,6 +229,13 @@ letter-spacing: -0.05em;
 color: #FFFFFF;
 }
 
+.log-id{
+    position: absolute;
+    width: 100%;
+    left: 10vh;
+    top: 10vh;
+}
+
 
 
 
