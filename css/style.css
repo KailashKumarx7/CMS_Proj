@@ -217,8 +217,8 @@ ul.ul-list {
 
 .log-box .log-heading {
     position: absolute;
-    left: 20vh;
-    top: 1vh;
+    left: 40%;
+    top: 5%;
     text-decoration: none;
     /* width: 76px;
 height: 17px; */
@@ -270,7 +270,7 @@ input[type=password] {
     padding: 5px 15px 5px 15px;
     margin-top: 2vh;
     position: absolute;
-    right: 20vh;
+    right: 40%;
     background-color: #A0CECE;
     border-radius: 10px;
 }
