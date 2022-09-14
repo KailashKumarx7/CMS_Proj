@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     background-image: url('/assets/images/dashbord-back.jpeg');
 
     background-size: cover;
@@ -15,20 +16,20 @@ body{
 
 }
 
-.logot{
+.logot {
     text-decoration: none;
     color: black;
     padding-left: 20px;
     margin-top: 20px;
 }
 
-.nav-text-logo{
+.nav-text-logo {
     position: absolute;
     left: 50px;
     top: 12px;
 }
 
-.nav-text-logo a{
+.nav-text-logo a {
     text-decoration: none;
     font-size: 20px;
     color: black;
@@ -37,38 +38,40 @@ body{
     letter-spacing: -5px;
 }
 
-.nav-logo{
+.nav-logo {
     padding-top: 10px;
 }
 
-.nav{
+.nav {
     background-color: white;
 
     opacity: 64%;
 }
 
-.nav-content{
+.nav-content {
     position: absolute;
     top: 8px;
     right: 150px;
 
 
 }
-ul.ul-list{
+
+ul.ul-list {
     display: flex;
     width: 50px;
     list-style: none;
     padding-left: 0;
     width: 100%;
-   
+
     color: black;
 }
 
-.ul-list li{
+.ul-list li {
     padding-left: 5px;
     margin: 0 10px 0 10px;
 }
-.ul-list li a{
+
+.ul-list li a {
     text-decoration: none;
     padding: 0 10px 0 10px;
     color: black;
@@ -78,17 +81,17 @@ ul.ul-list{
 
 }
 
-.top-btn{
+.top-btn {
     border-radius: 10px;
     position: absolute;
-    right: 40px;
+    right: 7vh;
     top: 7px;
     height: 25px;
     width: 70px;
     background: black;
 }
 
-.log-top-button{
+.log-top-button {
 
     background: black;
     border-radius: 5px;
@@ -100,7 +103,7 @@ ul.ul-list{
 
 }
 
-.log-top-button a{
+.log-top-button a {
     color: white;
     opacity: 100%;
     font-size: 15px;
@@ -113,34 +116,36 @@ ul.ul-list{
 
 
 
-.ellips1{
+.ellips1 {
     position: absolute;
 
     height: 80%;
     width: 40%;
     background-color: black;
-    border-radius: 14% 86% 89% 11% / 5% 56% 44% 95%  ;
+    border-radius: 14% 86% 89% 11% / 5% 56% 44% 95%;
     left: -90px;
 
 }
-.ellips2{
+
+.ellips2 {
     position: absolute;
 
     height: 80%;
     width: 50%;
     background-color: black;
-    border-radius: 14% 86% 89% 11% / 5% 56% 44% 95%  ;
+    border-radius: 14% 86% 89% 11% / 5% 56% 44% 95%;
     left: -90px;
     top: 200px;
 
 }
-.ellips3{
+
+.ellips3 {
     position: absolute;
 
     height: 80%;
     width: 55%;
     background-color: black;
-    border-radius: 14% 86% 89% 11% / 5% 56% 44% 95%  ;
+    border-radius: 14% 86% 89% 11% / 5% 56% 44% 95%;
     left: -100px;
     top: 300px;
 
@@ -148,141 +153,134 @@ ul.ul-list{
 
 
 
-.content{
-    
-position: absolute;
-width: 40%;
-height: 35%;
+.content {
 
-top: 30%;
-
-
-}
-
-.content p.p1{
-    font-family: 'Inter';
-font-style: normal;
-font-weight: 600;
-font-size: 60px;
-line-height: 44px;
-text-align: center;
-line-height: 1.1;
-
-
-color: #FAFF00;
-}
-
-.content p.p2{
-    font-family: 'Inter';
-font-style: normal;
-font-weight: 600;
-font-size: 60px;
-line-height: 44px;
-text-align: center;
-line-height: 1.1;
-
-color: #FAFF00;
-}
-.content p.p3{
-    font-family: 'Inter';
-font-style: normal;
-font-weight: 600;
-font-size: 60px;
-line-height: 44px;
-text-align: center;
-line-height: 1.1;
-
-
-color: #FAFF00;
-}
-
-
-.log-box{
     position: absolute;
-    width: 320px;
-    height: 370px;
-    left: 70%;
-    top: 173px;
-    
-    background: #000000;
-    border-radius: 20px; 
+    width: 40%;
+    height: 35%;
+
+    top: 30%;
+
 
 }
 
-.log-box .log-heading{
+.content p.p1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 44px;
+    text-align: center;
+    line-height: 1.1;
+
+
+    color: #FAFF00;
+}
+
+.content p.p2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 44px;
+    text-align: center;
+    line-height: 1.1;
+
+    color: #FAFF00;
+}
+
+.content p.p3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 44px;
+    text-align: center;
+    line-height: 1.1;
+
+
+    color: #FAFF00;
+}
+
+
+.log-box {
+    position: absolute;
+    width: 25%;
+    height: 60%;
+    left: 70%;
+    top: 30vh;
+
+    background: #000000;
+    border-radius: 20px;
+
+}
+
+.log-box .log-heading {
     position: absolute;
     left: 20vh;
     top: 1vh;
     text-decoration: none;
-/* width: 76px;
+    /* width: 76px;
 height: 17px; */
-/* left: 807px; */
-/* top: 182px; */
+    /* left: 807px; */
+    /* top: 182px; */
 
-font-family: 'Inter';
-font-style: normal;
-font-weight: 700;
-font-size: 24px;
-line-height: 29px;
-letter-spacing: -0.05em;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: -0.05em;
 
-color: #FFFFFF;
+    color: #FFFFFF;
 }
 
-.log-id{
-    position: absolute;  
-    left: 10vh;
-    top: 10vh;
+input[type=text],
+input[type=password] {
+    width: 80%;
+    padding: 10px 10px;
+    margin: 8px 5vh;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
 }
 
+.log-id {
+    margin-top: 25vh;
+}
 
+.log-id b {
+    margin-left: 5vh;
+    color: white;
 
+}
 
+/* .log-password{
+    margin-top: vh;
+  } */
 
+.log-password b {
+    margin-left: 5vh;
 
+    color: white;
+}
 
+.log-down-btn {
+    padding: 5px 15px 5px 15px;
+    margin-top: 2vh;
+    position: absolute;
+    right: 20vh;
+    background-color: #A0CECE;
+    border-radius: 10px;
+}
 
+.log-down-btn a{
+    color: white;
+    opacity: 100%;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: poppins, sans-serif;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
